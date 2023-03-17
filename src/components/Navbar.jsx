@@ -19,8 +19,14 @@ const Links = styled.div`
   align-items: center;
   gap: 50px;
 `;
-const Logo = styled.img`
+const Logo = styled.div`
   height: 50px;
+  width: 100px;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const List = styled.ul`
@@ -58,7 +64,7 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-        <Logo src="./img/logo.png"/>
+        <Logo>Logo Here</Logo>
         <List>
           <ListItem>Home</ListItem>
           <ListItem>About</ListItem>
