@@ -3,6 +3,7 @@ import Who from "./components/Who";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import styled from "styled-components";
+import Test from "./components/Test";
 
 /*
 CSS Gradient
@@ -29,8 +30,8 @@ function App() {
     <Container>
       <Hero/>
       <Who/>
-      <Work/>
       <Contact/>
+      <Test/>
     </Container>
   )
 }

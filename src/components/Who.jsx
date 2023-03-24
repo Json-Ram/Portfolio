@@ -71,13 +71,13 @@ const Who = () => {
       <Container>
         <Left>{/*3dmodel*/}</Left>
         <Right>
-          <Title>Think outside the box</Title>
+          <Title>Projects</Title>
           <WhatWeDo>
             <Line src="./img/line.png"/>
-            <Subtitle>What I do</Subtitle>
+            <Subtitle>Java</Subtitle>
           </WhatWeDo>
-          <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Description>
-          <Button>See my work</Button>
+          <Description>Some of my projects from my time at Lighthouse Labs</Description>
+          <Button>Contact Me</Button>
         </Right>
       </Container>
     </Section>

@@ -33,6 +33,7 @@ const List = styled.ul`
   display: flex;
   gap: 20px;
   list-style: none;
+  padding-left: 100px;
 `;
 const ListItem = styled.li`
   cursor: pointer;
@@ -52,6 +53,7 @@ const Icon = styled.img`
 const Button = styled.button`
   width: 100px;
   padding 10px;
+  margin-right: 100px;
   background-color: #020024;
   color: white;
   border: none;
@@ -64,7 +66,6 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-        <Logo>Logo Here</Logo>
         <List>
           <ListItem>Home</ListItem>
           <ListItem>About</ListItem>

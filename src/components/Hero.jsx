@@ -20,11 +20,12 @@ const Container = styled.div`
 `;
 
 const Left = styled.div`
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  padding-left: 100px;
 `;
 
 const Title = styled.h1`
@@ -63,25 +64,28 @@ const Button = styled.button`
 `;
 
 const Right= styled.div`
-  flex: 3;
+  flex: 1;
   position: relative;
 `;
 
 const Img = styled.img`
-  width: 800px;
-  height: 600px;
-  object-fit: contain;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: solid 4px white;
+  object-fit: cover;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+  margin-left: 30px;
   animation: animate 2s infinite ease alternate;
 
   @keyframes animate {
     to{
-      transform: translateY(20px);
+      transform: translateY(10px);
     }
   }
 `;
@@ -93,16 +97,15 @@ const Hero = () => {
       <Navbar/>
       <Container>
         <Left>
-          <Title>Speed. Violence. Momentum.</Title>
+          <Title>Hey I'm Jason</Title>
           <WhatWeDo>
-            <Line src="./img/line.png"/>
-            <Subtitle>What I am</Subtitle>
+            <Subtitle>Full Stack Software Dev</Subtitle>
           </WhatWeDo>
-          <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Description>
-          <Button>Learn More</Button>
+          <Description>Vancouver, BC</Description>
+          <Button>See My Work</Button>
         </Left>
         <Right>
-          <Img src="./img/surf.png"/>
+          <Img src="./img/me.jpeg"/>
         </Right>
       </Container>
     </Section>
