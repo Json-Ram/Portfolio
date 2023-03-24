@@ -73,8 +73,7 @@ const Who = () => {
         <Right>
           <Title>Projects</Title>
           <WhatWeDo>
-            <Line src="./img/line.png"/>
-            <Subtitle>Java</Subtitle>
+            <Subtitle>JavaScript, NodeJS, React, HTML5, CSS3</Subtitle>
           </WhatWeDo>
           <Description>Some of my projects from my time at Lighthouse Labs</Description>
           <Button>Contact Me</Button>

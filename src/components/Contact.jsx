@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
+import Map from './Map';
 
 const Section = styled.div`
   height: 100vh;
@@ -23,7 +24,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-weight: 200;
+  font-weight: 300;
 `;
 
 const Form = styled.form`
@@ -89,13 +90,13 @@ const Contact = () => {
             <Title>Contact Me</Title>
             <Input placeholder="Name" name="name"/>
             <Input placeholder="Email" name="email"/>
-            <TextArea placeholder="Write your message" name="message" rows={10}/>
+            <TextArea placeholder="Your message" name="message" rows={10}/>
             <Button type="submit">Send</Button>
             {success &&
               "Your message has been sent. I'll get back to you soon!"}
           </Form>
         </Left>
-        <Right></Right>
+        <Right><Map/></Right>
       </Container>
     </Section>
   )
