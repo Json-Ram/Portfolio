@@ -72,11 +72,11 @@ const Who = () => {
       <Container>
         <Left><Cube/></Left>
         <Right>
-          <Title>Projects</Title>
+          <Title>My Projects</Title>
           <WhatWeDo>
-            <Subtitle>JavaScript, NodeJS, React, HTML5, CSS3</Subtitle>
+            <Subtitle>JavaScript, React, NodeJS, C#, HTML5, CSS3</Subtitle>
           </WhatWeDo>
-          <Description>Some of my projects from my time at Lighthouse Labs</Description>
+          <Description></Description>
           <Button>Contact Me</Button>
         </Right>
       </Container>

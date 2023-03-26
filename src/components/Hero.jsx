@@ -99,9 +99,9 @@ const Hero = () => {
         <Left>
           <Title>Hey I'm Jason</Title>
           <WhatWeDo>
-            <Subtitle>Full Stack Software Dev</Subtitle>
+            <Subtitle>A Full Stack Software Developer</Subtitle>
           </WhatWeDo>
-          <Description>Vancouver, BC</Description>
+          <Description>From Vancouver, BC</Description>
           <Button>See My Work</Button>
         </Left>
         <Right>
