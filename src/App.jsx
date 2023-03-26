@@ -1,8 +1,11 @@
 import Hero from "./components/Hero";
 import Who from "./components/Who";
-import Work from "./components/Work";
 import Contact from "./components/Contact";
 import styled from "styled-components";
+import ProjectOne from "./components/ProjectOne";
+import ProjectTwo from "./components/ProjectTwo";
+import ProjectThree from "./components/ProjectThree";
+
 
 /*
 CSS Gradient
@@ -28,7 +31,9 @@ function App() {
   return (
     <Container>
       <Hero/>
-      <Who/>
+      <ProjectOne/>
+      <ProjectTwo/>
+      <ProjectThree/>
       <Contact/>
     </Container>
   )
