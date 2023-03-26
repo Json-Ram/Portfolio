@@ -9,7 +9,7 @@ const Container = styled.div`
   scroll-snap-align: center;
 `
 
-const Test = () => {
+const Cube = () => {
   return (
     <Container>
       <Canvas>
@@ -24,4 +24,4 @@ const Test = () => {
   )
 }
 
-export default Test;
+export default Cube;

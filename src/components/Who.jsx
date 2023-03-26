@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Cube from "./Cube";
 
 const Section = styled.div`
   height: 100vh;
@@ -69,7 +70,7 @@ const Who = () => {
   return (
     <Section>
       <Container>
-        <Left>{/*3dmodel*/}</Left>
+        <Left><Cube/></Left>
         <Right>
           <Title>Projects</Title>
           <WhatWeDo>
