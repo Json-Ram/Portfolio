@@ -25,7 +25,7 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  padding-left: 100px;
+  padding-left: 200px;
 `;
 
 const Title = styled.h1`

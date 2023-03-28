@@ -33,7 +33,7 @@ const List = styled.ul`
   display: flex;
   gap: 20px;
   list-style: none;
-  padding-left: 100px;
+  padding-left: 200px;
 `;
 const ListItem = styled.li`
   cursor: pointer;
@@ -53,7 +53,7 @@ const Icon = styled.img`
 const Button = styled.button`
   width: 100px;
   padding 10px;
-  margin-right: 100px;
+  margin-right: 200px;
   background-color: #020024;
   color: white;
   border: none;
@@ -67,10 +67,9 @@ const Navbar = () => {
       <Container>
         <Links>
         <List>
-          <ListItem>Home</ListItem>
-          <ListItem>About</ListItem>
-          <ListItem>Projects</ListItem>
-          <ListItem>Contact</ListItem>
+          <ListItem>Github</ListItem>
+          <ListItem>LinkedIn</ListItem>
+          <ListItem>Resume</ListItem>
         </List>
         </Links>
         <Icons>
